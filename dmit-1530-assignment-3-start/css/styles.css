@@ -1,0 +1,1063 @@
+/* 
+
+
+font-family: "Inter", sans-serif;
+
+
+ */
+
+:root {
+    --brand-blue: #6178A6;
+}
+
+
+body {
+    font-family: "Inria Sans", sans-serif;
+
+}
+
+
+/* MODAL  */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 10% auto;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 500px;
+    position: relative;
+}
+
+.modal-content svg {
+    width: 1.2rem;
+
+}
+
+.modal-content svg {
+    position: absolute;
+    bottom: 0rem;
+
+}
+
+
+.modal-content img {
+    margin-bottom: 2rem;
+
+}
+
+.modal-description {
+    padding-top: 5rem;
+}
+
+.modal-description h2 {
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #333333;
+}
+
+.modal-description p {
+    margin-top: 1.5rem;
+}
+
+.signup {
+    display: block;
+    background-color: #6178A6;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.2;
+    padding: 0.75rem 2.25rem;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+
+}
+
+.button-container {
+    margin: 3rem 2.25rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.modal-content span {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #666666;
+}
+
+.offer {
+    color: #6178A6;
+}
+
+
+.close {
+    color: #aaa;
+    position: absolute;
+    left: 25rem;
+    top: 40rem;
+    font-size: 1.75px;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #333333;
+}
+
+.close:hover {
+    color: black;
+}
+
+
+h1 {
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 1.1953125;
+    color: #000000;
+    padding: 2rem 0 3rem 2.25rem;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.inner-container {
+    margin: auto;
+    max-width: 1080px;
+}
+
+
+
+
+/* FIRST NAV  */
+
+header .first-ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 0.5rem;
+    color: white;
+    background-color: black;
+    width: 100%;
+    margin-top: unset;
+    padding: 1rem;
+}
+
+.italic-nav {
+    font-style: italic;
+    font-weight: 200;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+}
+
+header .first-ul {
+    font-family: "Inter", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+
+
+
+/* UTILITIES  */
+
+
+.relative {
+    position: relative;
+}
+
+.absolute-icon {
+    position: absolute;
+    bottom: 3.5rem;
+    right: 3.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+
+/* Navigation */
+header {
+    box-shadow: var(--shadow);
+    position: relative;
+}
+
+header .inner-container {
+    height: 4.25rem;
+    padding: 0.5rem 1rem;
+}
+
+.toggle-btn {
+    border: none;
+    background-color: unset;
+    font-size: 0.825rem;
+}
+
+.toggle-btn svg {
+    display: block;
+    width: 3rem;
+}
+
+
+nav {
+    background-color: white;
+    box-shadow: var(--shadow);
+    position: absolute;
+    left: 0;
+    top: 9.25rem;
+    width: 100%;
+    z-index: 10;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: background-color 0.3s;
+
+}
+
+
+.collapsed {
+    max-height: 0;
+    opacity: 0;
+    transition: all 0.3s;
+    visibility: hidden;
+}
+
+.expanded {
+    max-height: unset;
+    opacity: 1;
+    visibility: visible;
+}
+
+/* layout  */
+
+.banner-section {
+    background: url('/img/asset/mom-and-son.jpg') center / cover no-repeat;
+    justify-content: center;
+    max-height: 20%;
+    padding: 8rem;
+
+}
+
+
+.first-section {
+    background-color: rgba(0, 0, 0, 40%);
+    text-align: center;
+    color: #FFFFFF;
+    padding: 0.97125rem 2.316875rem 3.7675rem 2.38rem;
+}
+
+.first-section h2 {
+    font-size: 12.5rem;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #FFFFFF;
+}
+
+.first-section h3 {
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 1.20833333;
+    color: #FFFFFF;
+
+}
+
+
+/* second section  */
+
+
+.sec-two-h2 {
+
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #333333;
+    margin: 3rem 0 3rem 1.9375rem;
+
+}
+
+.card {
+    padding: 3rem;
+}
+
+.description {
+    border: 1px solid lightgray;
+    padding: 1.5rem 1.5rem 1rem 1.5rem;
+}
+
+.description h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #333333;
+}
+
+.description p {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #666666;
+    padding-bottom: 1rem;
+}
+
+.description a {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6178A6;
+
+}
+
+
+
+.second-section h2 {
+    padding: 3rem;
+    font-size: 2rem;
+}
+
+.second-section svg {
+    width: 1rem;
+    height: 1rem;
+}
+
+.second-section a {
+    padding: 3rem 0.5rem 1.5rem 12rem;
+}
+
+
+/* THIRD SECTION  */
+
+.third-section strong {
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #FFFFFF;
+}
+
+.third-section span {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 0 2.25rem;
+}
+
+.btn-container button {
+    display: flex;
+    flex-direction: column;
+    padding: 0.8rem;
+    background-color: #333333;
+    color: white;
+}
+
+
+
+
+.fourth-section {
+    padding: 4rem 1.6875rem 0 2.875rem;
+}
+
+
+.fourth-section h2 {
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 1.2083333333;
+    color: #000000;
+    margin-bottom: 2.0625rem;
+
+}
+
+.image-scroll {
+    display: flex;
+    gap: 2rem;
+    overflow-x: auto;
+    padding: 0.5rem 0;
+
+}
+
+
+.img-card {
+    flex: 0 0 auto;
+    width: 12.5rem;
+    height: auto;
+    object-fit: cover;
+    padding-bottom: 1.4375rem;
+}
+
+.img-card p {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.1875;
+    color: #000000;
+    margin-top: 1.333125rem;
+}
+
+
+
+/* FIFTH SECTION  */
+
+.fifth-section {
+    padding: 4.5rem 1.25rem 7.75rem 1.25rem;
+}
+
+.semi-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    text-align: center;
+}
+
+.semi-footer h3 {
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #333333;
+}
+
+.semi-footer ul li {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #333333;
+}
+
+footer p {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1.25;
+    color: #FFFFFF;
+
+
+}
+
+footer a {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1.25;
+    color: #FFFFFF;
+
+
+}
+
+
+
+footer {
+    background-color: #000000;
+    padding: 1rem 1.25rem;
+
+}
+
+
+
+/* MEDIA QUERY  */
+
+
+@media (min-width: 980px) {
+
+    .first-section {
+        display: none;
+        margin: unset;
+        padding: unset;
+
+    }
+
+    .hidden {
+        display: block;
+
+
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 5rem;
+        gap: 5rem;
+
+    }
+
+    .banner-section {
+        padding: unset;
+        padding: 15rem;
+    }
+
+
+    .relative {
+        position: relative;
+    }
+
+    .absolute-nav {
+        position: absolute;
+        right: 2rem;
+        bottom: 3rem;
+    }
+
+    .first-section h3 {
+        padding-left: 5rem;
+        padding-top: 10rem;
+
+    }
+
+
+    header .first-ul {
+        display: flex;
+        justify-content: start;
+        gap: 1.5rem;
+        color: white;
+        background-color: black;
+        width: 100%;
+        margin-top: unset;
+        padding: 1rem;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    nav.collapsed,
+    nav.expanded {
+        box-shadow: none;
+        max-height: unset;
+        opacity: 1;
+        position: static;
+        visibility: visible;
+        width: unset;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+
+    nav a:hover,
+    nav a:focus {
+        background-color: unset;
+        text-decoration: underline;
+    }
+
+
+    .whole-second-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: unset;
+    }
+
+    .card {
+        flex: 1;
+        max-width: 500px;
+    }
+
+    .relative {
+        position: relative;
+
+    }
+
+    .absolute-icon {
+        position: absolute;
+        right: 5rem;
+        bottom: 4rem;
+    }
+
+    .absolute-baby {
+
+        position: absolute;
+        bottom: 3.5rem;
+        left: 2rem;
+        width: 500px;
+    }
+
+    .btn-container {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        justify-content: center;
+
+    }
+
+    .btn-container {
+        padding: 2rem;
+    }
+
+    .image-scroll {
+        margin: 0 8rem 0 8rem;
+
+    }
+
+    .semi-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 0 10.9375rem 0 10.9375rem;
+    }
+
+
+
+    /* modal query  */
+
+    .modal-content {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 800px;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .modal-content img {
+        width: 40%;
+        object-fit: cover;
+    }
+
+    .description-container {
+        width: 60%;
+        padding: 2rem;
+    }
+
+    .close {
+        position: absolute;
+        top: 3rem;
+        left: 44rem;
+    }
+
+
+}
+
+
+
+
+
+/* MEMBERSHIP PAGE  */
+
+.header-exit {
+    display: flex;
+    gap: 0.4rem;
+    padding: 2rem;
+}
+
+
+.header-exit svg {
+    width: 30px;
+}
+
+.header-exit p {
+    padding-top: 0.5rem;
+}
+
+
+
+
+
+
+
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+legend {
+    color: var(--accent);
+    font-size: 2.125rem;
+    padding: 0;
+}
+
+fieldset div {
+    margin-top: 2rem;
+}
+
+label {
+    color: var(--label);
+    display: block;
+    font-size: 1.125rem;
+    margin-left: 0.25rem;
+}
+
+fieldset input {
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    margin: 0.75rem 0 0.5rem 0;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+
+
+fieldset input:valid {
+    background: url('../img/svg/exclamation.svg') right 0.5rem center no-repeat;
+}
+
+
+
+fieldset input:invalid:not(:focus):not(:placeholder-shown) {
+    background: url('../img/svg/exclamation.svg') right 0.5rem center no-repeat;
+}
+
+p.help {
+    color: var(--help);
+    font-size: 0.875rem;
+    margin-left: 0.25rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s;
+}
+
+
+
+fieldset input:focus~p.help {
+    max-height: unset;
+    overflow: visible;
+}
+
+/* Submit Button */
+
+input[type="submit"] {
+    background-color: var(--accent);
+    border: none;
+    border-radius: 1rem;
+    color: #fff;
+    display: block;
+    font-size: 1.125rem;
+    font-weight: 300;
+    margin: 2rem auto 0 auto;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+    width: 12rem;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    background-color: var(--hover);
+}
+
+.checkbox {
+    display: inline-flex;
+    justify-content: start;
+}
+
+
+.info {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.info svg {
+    width: 1.5rem;
+}
+
+.create-account {
+    background-color: #6178A6;
+    color: #ffffff;
+    padding: 0.75rem 1rem 0.75rem 1rem;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 2rem;
+}
+
+.create-container {
+    text-align: center;
+    margin: 4rem 0 3rem 0;
+}
+
+.membership-container {
+    border: 1px solid #D8D8D8;
+    padding: 3rem 4rem;
+    margin: 0 2rem;
+}
+
+
+.membership-h3 {
+    display: flex;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.1875;
+    color: #333333;
+}
+
+.membership-container-ul ul {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    text-align: center;
+}
+
+.membership-container-ul li {
+    flex: 1 1 45%;
+}
+
+
+
+.membership-container-ul ul li:nth-child(1) {
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.3333333;
+    color: #000000;
+
+}
+
+.membership-container-ul ul li:nth-child(2) {
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 200;
+    line-height: 1.3333333;
+    color: #000000;
+}
+
+
+
+.membership-container-ul ul li:nth-child(3) {
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.33333333;
+    color: #000000;
+}
+
+.membership-container-ul ul li:nth-child(4) {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.33333333;
+    color: #000000;
+}
+
+.container legend {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #333333;
+}
+
+.container p {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.your-name,
+.email,
+.password {
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #333333;
+}
+
+.help {
+    font-family: "Inter", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #666666;
+}
+
+
+#password-help ul {
+    list-style-type: disc;
+    
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    all: unset;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.exclusive-offer {
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #333333;
+}
+
+.info-p {
+    font-family: "Inter", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #666666;
+}
+
+
+
+
+/* ACCORDION  */
+
+
+
+.accordion {
+    margin: 3rem 0;
+}
+
+.accordion h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #333333;
+}
+
+.accordion h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #333333;
+}
+
+.accordion-section p,
+.accordion-section blockquote {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #333333 ;
+    width: 500px;
+    text-align: left;
+    margin: 1rem;
+}
+
+.accordion-header {
+    font-weight: 300;
+    font-size: 1.4375rem;
+}
+
+.buttons {
+    align-items: center;
+    color: #6178A6;
+    border: none;
+    border-bottom: 1px solid #D8D8D8;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    gap: 1rem;
+    justify-content: space-between;
+    padding: 0.75rem 1rem;
+    width: 90%;
+    background-color: unset;
+    min-width: 200px;
+    display: flex;
+    
+}
+
+.accordion svg {
+    height: 1.4375rem;
+    transition: transform 0.3s ease;
+}
+
+.accordion-content {
+    transition: opacity 200ms linear, max-height 200ms linear;
+}
+
+
+.collapseds {
+    max-height: 0;
+    opacity: 0;
+    transition: all 0.3s ease;
+    visibility: hidden;
+}
+
+.expandeds {
+    max-height: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.toggle-btns:has(+ .expandeds) svg {
+    transform: rotate(45deg);
+}
+
+
+.accordion-section {
+
+    border: 1px solid #D8D8D8;
+    margin: 4rem 2rem;
+    padding: 2rem;
+}
+
+@media (min-width: 980px) {
+    .membership-container-ul ul {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        margin: 5rem;
+
+    }
+
+    body {
+        padding: 6.0625rem 18rem 0 18rem;
+    }
+
+    .membership-semi-footer div {
+    gap: 5rem;
+    max-width: 100%;
+    }
+}
+
+
+
+
+
+
+
+/* 
+
+font-family: "Inter", sans-serif;
+
+*/
